@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#21282C">
+
+    <ImageView
+        android:id="@+id/backBtn"
+        android:src="@drawable/btn_back"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickedButtonEvent"
+        />
+
+    <!--back btn-->
+    <TextView
+        android:text="이전"
+        android:layout_toRightOf="@+id/backBtn"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <!--ex) 1/5 -->
+    <TextView
+        android:text=""
+        android:id="@+id/listState"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <!--submit-->
+    <Button
+        android:id="@+id/submitBtn"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text="전송"
+        android:textSize="17sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickedButtonEvent"/>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#cc000000"
+              >
+
+
+    <ImageView
+        android:layout_width="@dimen/filter_image_width"
+        android:layout_height="@dimen/filter_image_height"
+        android:id="@+id/filteredImg"/>
+
+    <TextView
+        android:layout_width="@dimen/filter_image_width"
+        android:layout_height="@dimen/filter_description_height"
+        android:id="@+id/filterName"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal"/>
+
+</LinearLayout>

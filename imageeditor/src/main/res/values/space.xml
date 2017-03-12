@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- recyclerview 세로길이 -->
+    <dimen name="recyclerview_total_height">70dp</dimen>
+    <!-- 필터 이미지 가로 -->
+    <dimen name="filter_image_width">50dp</dimen>
+    <!-- 필터 이미지 세로 -->
+    <dimen name="filter_image_height">50dp</dimen>
+    <!-- 필터 이미지 세로 -->
+    <dimen name="filter_description_height">20dp</dimen><!--60dp + 20 dp = recyclerview_total_height-->
+</resources>

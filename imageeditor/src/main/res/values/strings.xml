@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">multi-image-selector한글</string>
+    <string name="folder_all">전체보기</string>
+    <!--<string name="preview">Preview한글</string>-->
+    <string name="msg_no_camera">카메라를 실행할수없습니다</string>
+    <string name="msg_amount_limit">더이상 선택할수없습니다</string>
+</resources>
+
+

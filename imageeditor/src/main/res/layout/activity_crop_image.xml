@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#21282C">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        layout="@layout/actionbar_crop_image"
+        android:layout_alignParentTop="true"
+        android:id="@+id/header"/>
+
+    <com.sz.image.editor.CropImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cropImage"
+        android:layout_centerInParent="true"
+        />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        layout="@layout/footer_crop_image"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/footer"/>
+
+
+</RelativeLayout>

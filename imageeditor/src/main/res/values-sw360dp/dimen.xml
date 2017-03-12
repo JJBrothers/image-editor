@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_size">96dp</dimen>
+    <dimen name="space_size">2dp</dimen>
+    <dimen name="folder_cover_size">72dp</dimen>
+
+    <!--&lt;!&ndash;crop&ndash;&gt;-->
+    <!--<dimen name="border_thickness">3dp</dimen>-->
+    <!--<dimen name="corner_thickness">5dp</dimen>-->
+    <!--<dimen name="guideline_thickness">1px</dimen>-->
+    <!--<dimen name="target_radius">24dp</dimen>-->
+    <!--<dimen name="snap_radius">3dp</dimen>-->
+    <!--<dimen name="corner_length">20dp</dimen>-->
+    <!--&lt;!&ndash;crop&ndash;&gt;-->
+</resources>
